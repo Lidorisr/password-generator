@@ -1,0 +1,86 @@
+body {
+  background: #1f2937;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+#container {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  left: 62px;
+  top: 64px;
+}
+
+#title_one {
+  color: white;
+}
+
+#title_one span {
+  color: #10b981;
+}
+
+#sup {
+  font-family: "Tiro Bangla", serif;
+  color: #d5d4d8;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+
+  position: absolute;
+  background-color: #10b981;
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(64, 61, 61, 0.05);
+  font-size: 14px;
+}
+.btn:before {
+  content: url("bolt.svg");
+  width: 10px;
+  float: left;
+  position: absolute;
+  left: 0;
+  padding: 14px;
+  color: #ffffff;
+}
+hr {
+  position: absolute;
+  width: 446px;
+  height: 0px;
+  left: 0;
+  top: 240px;
+  border: 1px solid #2f3e53;
+}
+
+input {
+  position: absolute;
+  width: 211px;
+  height: 39px;
+  left: 0;
+  top: 270px;
+  background: #273549;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #10b981;
+  background-image: url("dots.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 10px 0 0 10px;
+}
+
+input:hover {
+  background: #354050;
+}
