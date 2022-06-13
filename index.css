@@ -1,13 +1,15 @@
-body {
+body,
+html {
   background: #1f2937;
   font-family: "Poppins", sans-serif;
   font-style: normal;
+  box-sizing: border-box;
 }
 
 #container {
   position: absolute;
-  width: 550px;
-  height: 550px;
+
+  height: 80vh;
   left: 62px;
   top: 64px;
 }
@@ -79,6 +81,17 @@ input {
   background-repeat: no-repeat;
   background-position: center;
   margin: 10px 0 0 10px;
+}
+
+#pass-field2 {
+  left: 230px;
+}
+#pass-field3 {
+  top: 330px;
+}
+#pass-field4 {
+  left: 230px;
+  top: 330px;
 }
 
 input:hover {
